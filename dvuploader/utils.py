@@ -77,7 +77,7 @@ def add_directory(
 
     Args:
         directory (str): The directory path.
-        ignore (List[str], optional): A list of regular expressions to ignore certain files or directories. Defaults to [r"^\."].
+        ignore (List[str], optional): A list of regular expressions to ignore certain files or directories. Defaults to [r"^\\."].
         rootDirectoryLabel (str, optional): The label to be added to the directory path of each file. Defaults to "".
 
     Returns:
